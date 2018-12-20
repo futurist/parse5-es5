@@ -1,5 +1,5 @@
 {
-    "name": "parse5-html-rewriting-stream-es5",
+    "name": "es5-parse5-html-rewriting-stream",
     "description": "Streaming HTML rewriter.",
     "version": "5.1.0",
     "author": "Ivan Nikulin <ifaaan@gmail.com> (https://github.com/inikulin)",

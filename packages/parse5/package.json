@@ -1,5 +1,5 @@
 {
-    "name": "parse5-es5",
+    "name": "es5-parse5",
     "description": "HTML parser and serializer.",
     "version": "5.1.0",
     "author": "Ivan Nikulin <ifaaan@gmail.com> (https://github.com/inikulin)",
