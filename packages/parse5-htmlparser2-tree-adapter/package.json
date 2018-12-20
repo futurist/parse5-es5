@@ -1,5 +1,5 @@
 {
-    "name": "parse5-htmlparser2-tree-adapter",
+    "name": "parse5-htmlparser2-tree-adapter-es5",
     "description": "htmlparser2 tree adapter for parse5.",
     "version": "5.1.0",
     "author": "Ivan Nikulin <ifaaan@gmail.com> (https://github.com/inikulin)",

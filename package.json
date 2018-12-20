@@ -1,6 +1,12 @@
 {
     "private": true,
     "devDependencies": {
+        "@babel/core": "^7.1.6",
+        "@babel/preset-env": "^7.1.6",
+        "rollup": "^0.63.4",
+        "rollup-plugin-babel": "^4.0.3",
+        "rollup-plugin-commonjs": "^9.1.4",
+        "rollup-plugin-node-resolve": "^3.3.0",
         "dedent": "^0.7.0",
         "eslint": "^4.19.1",
         "eslint-config-prettier": "^2.9.0",
@@ -16,6 +22,7 @@
     },
     "scripts": {
         "bootstrap": "lerna bootstrap",
+        "build": "rollup -c",
         "lint": "eslint .",
         "unit-tests": "mocha --ui exports --reporter progress --timeout 20000 packages/**/test/*.test.js",
         "test": "npm run lint && npm run unit-tests",
